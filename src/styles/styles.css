@@ -1,10 +1,49 @@
 @font-face{
-font-family: "Montserrat";
-src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+font-family: "Mulish-Bold";
+src: url("../fonts/Mulish-Bold.ttf");
 }
 
 
 body {
-    background-color: darksalmon;
-    font-family: "Montserrat";
+    background-color: rgb(0, 0, 0);
+    font-family: "Mulish-Bold";
+    font-size: 30px;
+}
+
+.container_wrapper{
+  padding:0;
+  display: flex;
+  flex-flow:row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  margin: 0 auto;
+  width:1040px;
+  padding-top: 80px;
+  padding-left:200px;
+  padding-right:200px;
+  position: fixed;
+  
+}
+   
+.container{
+    margin:0 auto;
+    position:relative;
+    min-height: 350px;
+padding-top: 190px;
+    align:center;
+    display: flex;
+    padding-left:250px;
+}
+
+#myvideo {
+
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -999;
+    width: 100%;
+    object-fit: cover;
 }
